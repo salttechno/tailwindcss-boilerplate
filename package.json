@@ -1,0 +1,38 @@
+{
+  "name": "tailwindcss-boilerplate",
+  "version": "1.0.0",
+  "description": "Tailwind CSS boilerplate for HTML projects. Bare-bones HTML template with Tailwind CSS, PostCSS, Gulp, Browsersync &amp; Imagemin.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp",
+    "build": "NODE_ENV=production gulp css",
+    "build-images": "gulp images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salttechno/tailwindcss-boilerplate.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "boilerplate",
+    "gulp",
+    "postcss",
+    "browsersync",
+    "imagemin"
+  ],
+  "author": "salttechno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salttechno/tailwindcss-boilerplate/issues"
+  },
+  "homepage": "https://github.com/salttechno/tailwindcss-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
