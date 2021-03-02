@@ -2,7 +2,7 @@
 @tailwind components;
 
 body {
-	@apply bg-white text-gray-700;
+	@apply bg-white text-gray-700 font-sans;
 }
 
 @tailwind utilities;
